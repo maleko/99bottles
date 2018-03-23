@@ -2,7 +2,7 @@ package bottle
 
 import "strconv"
 
-func verses(starting int, ending int) (verses string) {
+func Verses(starting int, ending int) (verses string) {
 	verses = ""
 	for currentVerse := starting; currentVerse > ending; currentVerse-- {
 		verses += verse(currentVerse)

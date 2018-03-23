@@ -1,10 +1,11 @@
-package bottles
+package main
 
 import (
 	"fmt"
+
 	"github.com/maleko/bottles/bottle"
 )
 
 func main() {
-	fmt.Printf(verses(99, 0))
+	fmt.Printf(bottle.Verses(99, 0))
 }
