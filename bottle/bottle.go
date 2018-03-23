@@ -1,11 +1,11 @@
-package main
+package bottle
 
 import "strconv"
 
 func verses(starting int, ending int) (verses string) {
 	verses = ""
-	for current_verse := starting; current_verse > ending; current_verse-- {
-		verses += verse(current_verse)
+	for currentVerse := starting; currentVerse > ending; currentVerse-- {
+		verses += verse(currentVerse)
 	}
 	return
 }
